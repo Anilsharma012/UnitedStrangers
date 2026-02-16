@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>United Strangers | Work Anywhere, Live Differently</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;0,900;1,900&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#000000",
+                        secondary: "#0A0A0A",
+                        "ace-orange": "#FF8F42",
+                        "ui-white": "#FFFFFF",
+                    },
+                    fontFamily: {
+                        display: ["'Barlow Condensed'", "sans-serif"],
+                        serif: ["'Playfair Display'", "serif"],
+                        condensed: ["'Barlow Condensed'", "sans-serif"],
+                        sans: ["'Inter'", "sans-serif"],
+                    },
+                    letterSpacing: {
+                        'ace-wide': '0.35em',
+                        'ace-section': '0.8em',
+                        'ace-tighter': '-0.04em',
+                        'ace-tightest': '-0.08em',
+                        'ace-ultra': '-0.1em',
+                    }
+                },
+            },
+        };
+    </script>
+    <style>
+        @layer base {
+            body { 
+                @apply bg-primary text-ui-white font-sans antialiased overflow-x-hidden;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+            }
+            h1, h2, h3 { 
+                @apply font-display font-[900] uppercase tracking-ace-ultra leading-[0.85] scale-y-105 origin-bottom;
+            }
+            p {
+                @apply font-sans font-light leading-relaxed tracking-tight;
+            }
+        }
+        
+        .ace-title {
+            @apply font-display font-[900] uppercase tracking-ace-ultra leading-[0.82] scale-y-110 origin-bottom;
+        }
+
+        .ace-section-label {
+            @apply font-sans font-bold text-[11px] tracking-ace-section uppercase text-primary mb-6 block text-center;
+        }
+
+        .editorial-heading {
+            @apply font-serif italic lowercase font-normal tracking-tight text-primary;
+            line-height: 0.95;
+        }
+
+        /* The specific UI class for the sub-nav tabs from your 2nd screenshot */
+        .tab-nav-item {
+            @apply font-display font-[900] uppercase tracking-[0.25em] text-[11px] pt-10 pb-9 border-b-[4px] transition-all relative h-full flex items-center;
+        }
+
+        .hero-zoom {
+            /* Sized down by 50% from previous huge scale to fit device at 100% */
+            font-size: clamp(2rem, 7.5vw, 8rem);
+            @apply ace-title;
+            line-height: 0.82;
+            letter-spacing: -0.04em;
+        }
+
+        .fade-in { animation: fadeIn 1.2s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        .logo-boxed {
+            @apply border-[2px] border-white p-1 inline-block bg-primary;
+            box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
