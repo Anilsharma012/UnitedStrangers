@@ -1,4 +1,3 @@
-
 import React, { useState, useRef } from 'react';
 import { SIGNATURE_LOCATIONS, CURATED_LOCATIONS } from '../constants';
 import LaunchesSection from '../components/LaunchesSection';
@@ -71,7 +70,7 @@ const TRIPS_SLIDES = [
     name: 'ERICEIRA', 
     bg: 'bg-[#A3C7D7]', 
     textColor: 'text-black', 
-    font: 'font-serif italic lowercase tracking-tight scale-x-125 !text-[48px] md:!text-[64px]',
+    font: 'font-serif lowercase tracking-tight scale-x-125 !text-[48px] md:!text-[64px]',
     img: 'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=800' 
   },
   { 
@@ -87,7 +86,7 @@ const TRIPS_SLIDES = [
     name: 'LOS CABOS', 
     bg: 'bg-[#B5BA61]', 
     textColor: 'text-black', 
-    font: 'font-serif italic lowercase tracking-tight scale-x-110 !text-[48px] md:!text-[64px]',
+    font: 'font-serif lowercase tracking-tight scale-x-110 !text-[48px] md:!text-[64px]',
     img: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800' 
   },
   { 

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutUs: React.FC = () => {
@@ -51,7 +50,7 @@ const AboutUs: React.FC = () => {
 
       {/* Mission Section */}
       <section className="py-24 px-6 md:px-20 text-center max-w-4xl mx-auto border-b border-black/5">
-        <h2 className="text-[32px] md:text-[44px] font-serif italic text-primary leading-tight tracking-tight">
+        <h2 className="text-[32px] md:text-[44px] font-serif text-primary leading-tight tracking-tight">
           Our mission is to create a world where everyone can design and live their best lives, with the freedom to live and work anywhere.
         </h2>
       </section>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const MarrakeshTrip: React.FC = () => {
@@ -7,7 +6,7 @@ const MarrakeshTrip: React.FC = () => {
       {/* Editorial Header */}
       <section className="pt-32 pb-20 px-6 md:px-24 max-w-[1400px] mx-auto text-center md:text-left">
         <h1 className="font-display text-5xl md:text-[8rem] text-primary mb-6 tracking-tighter leading-[0.85]">Desert & Design</h1>
-        <p className="text-xl md:text-3xl font-display italic text-gray-500 max-w-4xl mb-6 leading-relaxed">
+        <p className="text-xl md:text-3xl font-display text-gray-500 max-w-4xl mb-6 leading-relaxed">
           Desert energy meets design-led calm.
         </p>
         <p className="font-condensed font-black text-[18px] text-gray-400 uppercase tracking-ace-wide">Apr 26 → May 24, 2026</p>
@@ -59,7 +58,7 @@ const MarrakeshTrip: React.FC = () => {
       <section className="py-32 px-6 md:px-24 bg-white border-y border-ace-border">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-6xl md:text-8xl font-display mb-12 tracking-tighter">Trip Details</h2>
-          <p className="text-xl md:text-2xl font-display italic text-gray-400 leading-relaxed mb-20">
+          <p className="text-xl md:text-2xl font-display text-gray-400 leading-relaxed mb-20">
             Spend four unforgettable weeks surrounded by color, craft, and creativity in Morocco’s most captivating city. Outsite Marrakesh is your base for deep work mornings, rooftop sunsets, and weekend adventures through the Atlas Mountains. Whether you’re joining for focus time or a full reset, this trip blends cultural immersion with Outsite’s signature community feel.
           </p>
           
@@ -86,7 +85,7 @@ const MarrakeshTrip: React.FC = () => {
               </div>
             ))}
           </div>
-          <p className="mt-16 text-[14px] text-gray-400 italic">
+          <p className="mt-16 text-[14px] text-gray-400">
             <span className="font-bold not-italic">Not included:</span> Some excursions are not included in the price but can be booked locally.
           </p>
         </div>
@@ -96,7 +95,7 @@ const MarrakeshTrip: React.FC = () => {
       <section className="py-40 px-6 md:px-24 bg-[#F9F7F2]">
         <div className="max-w-5xl mx-auto text-center mb-24">
           <h2 className="text-7xl md:text-9xl font-display mb-4 tracking-tighter">Choose Your Room</h2>
-          <p className="text-xl md:text-2xl font-display italic text-gray-400">Your home for the month.</p>
+          <p className="text-xl md:text-2xl font-display text-gray-400">Your home for the month.</p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-40">
