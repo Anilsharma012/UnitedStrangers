@@ -1,4 +1,3 @@
-
 import React, { useState, useRef } from 'react';
 import WaitlistModal from '../components/WaitlistModal';
 
@@ -121,7 +120,7 @@ const Trips: React.FC<TripsProps> = ({ onTripDetailClick, onStoryClick }) => {
         </video>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-10">
           <h1 className="text-white editorial-heading mb-6 leading-none !text-[12vw] md:!text-[9rem]">United Strangers Trips</h1>
-          <p className="text-white text-xl md:text-2xl font-light max-w-2xl opacity-90 leading-relaxed font-display italic">
+          <p className="text-white text-xl md:text-2xl font-light max-w-2xl opacity-90 leading-relaxed font-display">
             Curated one-month journeys for remote professionals who work and live - anywhere.
           </p>
         </div>
@@ -161,7 +160,7 @@ const Trips: React.FC<TripsProps> = ({ onTripDetailClick, onStoryClick }) => {
                   <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop" className="w-full h-full object-cover" alt="Lane" />
                </div>
                <div className="space-y-6 text-center md:text-left">
-                  <p className="text-gray-600 text-lg md:text-xl font-serif italic leading-relaxed">
+                  <p className="text-gray-600 text-lg md:text-xl font-serif leading-relaxed">
                     "I booked a month in Lisbon with United Strangers because I was tired of being alone — and somehow found the opposite of loneliness. I went from working in silence to sharing dinners, boat rides, and spontaneous beach days with people from all over the world. United Strangers didn't just give me a place to stay — it reminded me how good it feels to make community wherever you are."
                   </p>
                   <div>
@@ -231,7 +230,7 @@ const Trips: React.FC<TripsProps> = ({ onTripDetailClick, onStoryClick }) => {
               </div>
               <div className="h-px bg-black/10 w-full" />
               <div className="space-y-8">
-                 <h3 className="text-3xl md:text-5xl font-serif italic text-primary leading-tight lowercase">
+                 <h3 className="text-3xl md:text-5xl font-serif text-primary leading-tight lowercase">
                    "I started working remotely in 2017 - the work I do can be done anywhere"
                  </h3>
                  <p className="text-[15px] text-gray-500 font-sans font-light leading-relaxed">

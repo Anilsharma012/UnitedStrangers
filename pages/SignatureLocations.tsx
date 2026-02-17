@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import LaunchesSection from '../components/LaunchesSection';
 
@@ -55,7 +54,7 @@ const SignatureLocations: React.FC<SignatureLocationsProps> = ({ onVisitHouseCli
       <section className="pt-32 pb-16 px-6 text-center max-w-[1400px] mx-auto">
         <div className="mb-4">
           <span className="font-condensed font-black text-gray-400 text-[10px] tracking-[0.4em] uppercase">SIGNATURE</span>
-          <h1 className="text-[56px] md:text-[90px] font-serif italic text-primary leading-none tracking-tight mt-2">Locations</h1>
+          <h1 className="text-[56px] md:text-[90px] font-serif text-primary leading-none tracking-tight mt-2">Locations</h1>
         </div>
         <p className="text-gray-500 text-[15px] md:text-[18px] max-w-2xl mx-auto mb-10 leading-relaxed font-sans font-light">
           Outsite-designed and operated locations for consistent comfort, community, and workspace quality.

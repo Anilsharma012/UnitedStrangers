@@ -1,4 +1,3 @@
-
 import React, { useState, useRef } from 'react';
 
 const RealEstatePartners: React.FC = () => {
@@ -59,13 +58,13 @@ const RealEstatePartners: React.FC = () => {
             />
           </div>
           <div className="p-12 space-y-6 text-left">
-            <span className="material-symbols-outlined text-5xl text-primary opacity-20 italic">format_quote</span>
+            <span className="material-symbols-outlined text-5xl text-primary opacity-20">format_quote</span>
             <div>
               <h3 className="text-3xl font-display text-primary">Arthur Queron</h3>
               <p className="text-[11px] text-gray-400 font-bold uppercase tracking-widest mt-1">Landlord - Outsite Biarritz</p>
             </div>
             <div className="h-[1px] bg-gray-100 w-full" />
-            <p className="text-[16px] text-gray-500 font-sans font-light leading-relaxed italic">
+            <p className="text-[16px] text-gray-500 font-sans font-light leading-relaxed">
               "Overall, my workload & expenses decreased dramatically. The clientele is younger, easy-going & easier to manage. People appreciate (and participate in) the cleanliness & order. Outsite filters in ideal guests - no kids, no large families, mostly singles & couples."
             </p>
           </div>

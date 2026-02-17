@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface DealsProps {
@@ -64,7 +63,7 @@ const Deals: React.FC<DealsProps> = ({ onBecomeMemberClick, onViewDealClick, onB
               <h3 className="text-[13px] font-condensed font-black text-primary uppercase tracking-[0.15em] leading-tight text-black">LAST MINUTE DEALS - FEBRUARY 2026</h3>
               <p className="text-[14px] font-sans text-gray-500 font-medium">10% Off • February Last Minute Deals</p>
             </div>
-            <p className="text-[12px] text-gray-400 font-sans italic font-light">Book by Feb 20, 2026</p>
+            <p className="text-[12px] text-gray-400 font-sans font-light">Book by Feb 20, 2026</p>
             
             <div className="pt-6">
               <button 
