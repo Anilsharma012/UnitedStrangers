@@ -135,7 +135,7 @@ const Home: React.FC<HomeProps> = ({ onPropertyClick, onBecomeMemberClick, onExp
       {/* SIGNATURE LOCATIONS */}
       <section className="py-24 bg-[#FAF9F6] border-b border-black/5 overflow-hidden">
         <div className="max-w-[1400px] mx-auto text-center mb-16 px-6">
-          <h2 className="text-4xl md:text-6xl font-serif italic text-primary leading-tight mb-8 normal-case tracking-tight">Explore Our<br/>Signature Locations</h2>
+          <h2 className="text-4xl md:text-6xl font-serif text-primary leading-tight mb-8 normal-case tracking-tight">Explore Our<br/>Signature Locations</h2>
           <div className="mb-6 flex flex-col items-center gap-4">
             <span className="ace-section-label !text-gray-400 !mb-0 pb-1 border-b border-gray-200">SIGNATURE</span>
             <p className="text-[16px] md:text-[20px] text-gray-700 font-sans font-light max-w-2xl mx-auto leading-relaxed">
